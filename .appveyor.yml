@@ -16,7 +16,6 @@ install:
   - docker-compose up &
   - sleep 240
   - java -jar ./artifacts/app-deadline.jar &
-  - sleep 240
   - chmod +x gradlew
 
 build_script:
